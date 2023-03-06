@@ -17,7 +17,7 @@ words.forEach((word, index) => {
       repeated[word].count++;
       repeated[word].indexes.push(index);
     } else {
-      // If object doesn't contain property of word or new word, create a new property with a count of 1 and an array of indexes
+      // If the repeated object doesn't contain property in the mentioned name , a new property with a count of 1 and an array of indexes
       repeated[word] = {
         count: 1,
         indexes: [index],
