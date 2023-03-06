@@ -5,7 +5,7 @@ const str = "I am Raju and Raju is my name and I am from Bangalore";
 const words = str.split(" ");
 
 // Initialize an empty object - this object works as store and help to store the repeated items, their indexes, and their count
-const repeatedWords = {};
+const repeated = {};
 
 // Loop through each word in the array and add its index to the repeated object - we can do the task either using for also.
 words.forEach((word, index) => {
@@ -26,4 +26,4 @@ words.forEach((word, index) => {
   }
 });
 
-console.log(repeatedWords);
+console.log(repeated);
